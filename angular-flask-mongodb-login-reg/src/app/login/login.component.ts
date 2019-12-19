@@ -12,7 +12,7 @@ export class LoginComponent {
     last_name: '',
     email: '',
     password: ''
-  }
+  };
 
   constructor(private auth: AuthenticationService, private router: Router) {}
 

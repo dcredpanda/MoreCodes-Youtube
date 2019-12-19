@@ -5,7 +5,7 @@ import { AuthenticationService, UserDetails } from '../authentication.service'
   templateUrl: './profile.component.html'
 })
 export class ProfileComponent {
-  details: UserDetails
+  details: UserDetails;
 
   constructor(private auth: AuthenticationService) {}
 
